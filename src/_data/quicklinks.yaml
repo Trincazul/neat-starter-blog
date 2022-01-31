@@ -1,8 +1,8 @@
 links:
-  - title: Confira o Blog no dev.to
+  - title: Confira o dev.to
     url: https://dev.to/driuzim
-    desc: Confira nosso blog no dev.to, todos os artigos postados aqui tambem serão
+    desc: Confira o blog no dev.to, todos os artigos postados aqui tambem serão
       postados na plataforma dev.to
   - title: Github dos projetos
-    url: https://github.com/Neural-Sec
-    desc: Esse é o perfil de projetos da NeuralSec
+    url: https://github.com/Trincazul
+    desc: Esse é o perfil de projetos pessoais
