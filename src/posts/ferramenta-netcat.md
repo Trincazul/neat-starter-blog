@@ -31,10 +31,15 @@ Isso fará com que o netcat se conecte ao servidor local na porta 1234. Você po
 
 Existem diversos comandos básicos que você pode usar com o netcat. 
 Alguns exemplos incluem:
-    **nc -l 1234:** cria um servidor que escuta na porta 1234
-    **nc localhost 1234:** se conecta ao servidor local na porta 1234
-    **nc -z localhost 1234-1240:** realiza um port scanning nos endereços e portas especificados, procurando por portas abertas
-    **nc -w 3 localhost 1234 < arquivo.txt:** envia o conteúdo do arquivo arquivo.txt para o servidor local na porta 1234
-    **nc localhost 1234 > arquivo.txt:** recebe dados do servidor local na porta 1234 e salva-os no arquivo arquivo.txt
+
+**nc -l 1234:** cria um servidor que escuta na porta 1234
+
+**nc localhost 1234:** se conecta ao servidor local na porta 1234
+
+**nc -z localhost 1234-1240:** realiza um port scanning nos endereços e portas especificados, procurando por portas abertas
+
+**nc -w 3 localhost 1234 < arquivo.txt:** envia o conteúdo do arquivo arquivo.txt para o servidor local na porta 1234
+
+**nc localhost 1234 > arquivo.txt:** recebe dados do servidor local na porta 1234 e salva-os no arquivo arquivo.txt
 
 Esses são apenas alguns exemplos de comandos básicos do netcat. Existem muitos outros comandos e opções disponíveis, que podem ser consultados na documentação do netcat ou em tutoriais e exemplos online.
