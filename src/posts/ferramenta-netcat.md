@@ -1,6 +1,9 @@
 ---
 title: Ferramenta Netcat
-description: Funcionamento da ferramenta
+description: " netcat é uma ferramenta de rede que permite a conexão de sockets
+  para transferência de dados. Ele pode ser usado para criar conexões de rede
+  entre máquinas. Ele é frequentemente usado por administradores de rede e
+  profissionais de segurança da informação."
 author: Endriw Villa
 date: 2022-12-14T17:38:45.217Z
 tags:
@@ -17,6 +20,7 @@ Uma vez instalado, você pode usar o netcat com diversos parâmetros diferentes 
 ```
 nc -l 1234
 ``
+
 Isso fará com que o netcat crie um servidor que escuta na porta 1234. Para se conectar a esse servidor como um cliente, você pode usar o seguinte comando:
 
 ```
@@ -25,8 +29,8 @@ nc localhost 1234
 
 Isso fará com que o netcat se conecte ao servidor local na porta 1234. Você pode então enviar e receber dados através da conexão de rede criada.
 
-Existem diversos comandos básicos que você pode usar com o netcat. Alguns exemplos incluem:
-
+Existem diversos comandos básicos que você pode usar com o netcat. 
+Alguns exemplos incluem:
     **nc -l 1234:** cria um servidor que escuta na porta 1234
     **nc localhost 1234:** se conecta ao servidor local na porta 1234
     **nc -z localhost 1234-1240:** realiza um port scanning nos endereços e portas especificados, procurando por portas abertas
