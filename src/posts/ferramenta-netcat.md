@@ -19,7 +19,7 @@ Uma vez instalado, você pode usar o netcat com diversos parâmetros diferentes 
 
 ```
 nc -l 1234
-``
+```
 
 Isso fará com que o netcat crie um servidor que escuta na porta 1234. Para se conectar a esse servidor como um cliente, você pode usar o seguinte comando:
 
